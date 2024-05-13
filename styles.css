@@ -12,15 +12,22 @@ html {
     font-weight: bold;
 }
 
-.hplink {
-    text-align: right;
-}
-
-.recipe-links {
+.hplinks {
     list-style-type: none;
-    font-size: 17.5px;
+    margin-left: -1em;
 }
 
 img {
     border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.description {
+    text-align: center;
+}
+
+.bottomlinks {
+    text-align: right;
 }
