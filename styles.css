@@ -1,0 +1,26 @@
+html {
+    font-family: 'Trebuchet MS', Verdana;
+}
+
+.page-title {
+    color: white;
+    background-color: rgb(108, 152, 197);
+    text-align: center;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.hplink {
+    text-align: right;
+}
+
+.recipe-links {
+    list-style-type: none;
+    font-size: 17.5px;
+}
+
+img {
+    border-radius: 50%;
+}
