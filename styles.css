@@ -16,7 +16,9 @@ h2, p {
 .page-title {
     color: white;
     background-color: rgb(108, 152, 197);
+    padding: 6px;
     text-align: center;
+    border-bottom: 5px solid black;
 }
 
 .list {
@@ -26,6 +28,7 @@ h2, p {
 .hplinks {
     list-style-type: none;
     margin-left: -1em;
+    font-weight: bold;
 }
 
 img {
