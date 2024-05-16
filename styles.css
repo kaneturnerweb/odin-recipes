@@ -3,7 +3,7 @@ html, body {
     margin: 0;
 }
 
-h2, p, li, ul {
+h2, p, li, ul, .bottomlinks {
     font-family: 'Trebuchet MS', Verdana;
 }
 
@@ -15,7 +15,32 @@ h2, p, li, ul {
     text-align: center;
     border-bottom: 5px solid black;
     font-size: 50px;
+    font-family: "Trattatello"; 
+}
+
+.recipebanner {
+    color: white;
+    background-color: rgb(158, 181, 205);
+    padding: 20px;
     font-family: "Trattatello";
+    font-size: 40px;
+    border-bottom: 5px solid black;
+}
+
+.sitetitle {
+    margin-bottom: 18px;
+}
+
+.title {
+    margin-bottom: 2px;
+    margin-top: 25px;
+}
+
+.pagetitle {
+    margin-bottom: -25px;
+    margin-top: -10px;
+    text-align: center;
+    font-size: 60px;
 }
 
 .logo {
@@ -23,15 +48,16 @@ h2, p, li, ul {
     margin-bottom: -35px;
 }
 
-.pagetitle {
-    margin-bottom: 18px;
-}
-
 img {
     border-radius: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.recipepageimage {
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .description {
@@ -58,6 +84,7 @@ h2, p {
     width: 300px;
     background-color: rgb(158, 181, 205, 0.2);
     margin-right: 40px;
+    margin-top: 20px;
 }
 
 .hpimage {
@@ -65,8 +92,8 @@ h2, p {
     margin-bottom: 22px;
 }
 
-a:visited,
-a:link {
+.hover:visited,
+.hover:link {
     text-decoration: none;
     color: black;
     background-color: rgb(158, 181, 205);
@@ -74,13 +101,23 @@ a:link {
     display: block;
 }
 
-a:hover {
+.hover:hover {
     background-color: rgb(147, 200, 240);
+}
+
+.recipebox {
+    width: block;
+    background-color: rgb(222, 237, 251);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 25px;
+    box-shadow: 10px 10px rgb(151, 169, 185);
 }
 
 .bottomlinks {
     text-align: right;
     font-weight: bold;
+    font-size: 20px;
     padding: 5px;
     margin: 5px;
 }
