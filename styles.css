@@ -4,31 +4,13 @@ html, body {
     margin: 0;
 }
 
-h1 {
-    margin: 0;
-    margin-bottom: 25px;
-}
-
-h2, p {
-    margin-left: 5px;
-}
-
 .page-title {
     color: white;
-    background-color: rgb(108, 152, 197);
+    background-color: rgb(158, 181, 205);
     padding: 6px;
+    margin-top: -4px;
     text-align: center;
     border-bottom: 5px solid black;
-}
-
-.list {
-    font-weight: bold;
-}
-
-.hplinks {
-    list-style-type: none;
-    margin-left: -1em;
-    font-weight: bold;
 }
 
 img {
@@ -40,6 +22,30 @@ img {
 
 .description {
     text-align: center;
+    margin-bottom: 8px;
+}
+
+h2, p {
+    margin-left: 5px;
+}
+
+.list {
+    font-weight: bold;
+}
+
+.hplinks {
+    list-style-type: none;
+    margin-left: -1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hprecipe {
+    display: inline-block;
+    height: 250px;
+    width: 200px;
+    background-color: rgb(158, 181, 205, 0.2);
+    
 }
 
 .bottomlinks {
